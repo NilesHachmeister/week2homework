@@ -1,0 +1,110 @@
+*{
+    font-size: 20px;
+}
+
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+ body{
+     display: inline;
+ }
+
+header{
+    position: relative;
+    background-color: darkslategrey;
+    color: white;
+    height: 50px;
+    font-size: 25px;
+}
+
+.name{
+    position: relative;
+    font-size: 50px;
+justify-content: left;
+}
+
+nav{
+
+    display: flex;
+    justify-content: flex-end;
+
+
+} 
+
+header nav a{
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+header nav a:hover{
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+background-color: pink;
+
+}
+
+.title{
+    padding-left: 5%;
+    padding-bottom: 5%;
+    border: black solid 7px;
+    width: 12%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+#first-picture{
+width: 70%;
+height: 500px;
+
+justify-content: center;
+}
+
+
+
+img{
+    height: 200px;
+    width: 40%;
+    margin: 1%;
+    border: solid white 5px;
+    cursor: pointer;
+}
+
+.content{
+    width: 82%;
+    background-color: blue;
+
+}
+
+.title p {
+    font-size: 150%;
+}
+
+.contact-links{
+    padding: 20px;
+}
+
+#contact{
+    display: flex;
+    width: 82%;
+    background-color: blue;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#contact a {
+    cursor: pointer;
+}
+
+
+@media screen and (max-width ) {
+    
+}

@@ -1,31 +1,36 @@
 *{
-    font-size: 20px;
+
 }
 
 
 main{
-    display: flex;
-    flex-wrap: wrap;
+
+    
 }
 
 
  body{
-     display: inline;
+ 
  }
 
-header{
+
+ header{
     position: relative;
     background-color: darkslategrey;
     color: white;
     height: 50px;
     font-size: 25px;
+
 }
+
 
 .name{
     position: relative;
     font-size: 50px;
-justify-content: left;
+    float: left;
+  
 }
+
 
 nav{
 
@@ -36,14 +41,14 @@ nav{
 } 
 
 header nav a{
-    padding: 20px;
+    margin: 20px;
     text-decoration: none;
     color: white;
     cursor: pointer;
 }
 
 header nav a:hover{
-    padding: 20px;
+    margin: 20px;
     text-decoration: none;
     color: black;
     cursor: pointer;
@@ -51,50 +56,109 @@ background-color: pink;
 
 }
 
+
 .title{
-    padding-left: 5%;
-    padding-bottom: 5%;
+    
     border: black solid 7px;
-    width: 12%;
+    text-align: center;
+    margin: 20px 30%;
+    
+}
+
+#about-me{
+    background-color: purple;
+    color: white;
+    height: 450px;
+    width: 100%;
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
-
+    justify-content: flex-start;
+    flex-wrap: wrap;
 }
-#first-picture{
-width: 70%;
-height: 500px;
 
+.text{
+    width: 40%;
+}
+
+.text p {
+    justify-content: center;
+    margin: 40px; 
+    line-height: 1em;
+}
+
+.my-picture{
+    width:30%;
+}
+
+.my-picture img{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    border: none;
+}
+
+
+.content{
+    width: 100%;
+    background-color: blue;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.first-span{
+background-color: purple;
+    height: auto;
+ 
+    width: 42%;
+}
+
+.test{
+    background-color: orange;
+width: 58%;
+display: flex;
 justify-content: center;
-}
+flex-wrap: wrap;
 
+}
 
 
 img{
-    height: 200px;
+    height: 170px;
     width: 40%;
-    margin: 1%;
+    margin: 10px;
     border: solid white 5px;
     cursor: pointer;
+
+   
 }
 
-.content{
-    width: 82%;
-    background-color: blue;
 
-}
+#first-picture{
+    position: relative;
+    width: 100%;
+height: 375px;
+    }
+
 
 .title p {
     font-size: 150%;
 }
 
+
 .contact-links{
     padding: 20px;
+    text-decoration: none;
+    color: white;
 }
+
+
+
 
 #contact{
     display: flex;
-    width: 82%;
+    width: auto;
     background-color: blue;
     justify-content: space-around;
     align-items: center;
@@ -105,6 +169,77 @@ img{
 }
 
 
-@media screen and (max-width ) {
+
+
+footer{
+    display: inline;
+    margin: 20px;
+}
+
+
+
+
+@media screen and (max-width: 998px) {
+
+    #about-me{
+        height: auto;
+        width: 100%;
+
+    }
+
+.my-picture{
+    width: 100%;
+   height:auto;
+  
+}
+
+.text{
+    height:auto;
+    width: 100%;
+}
+
+    .first-span{
+            height: auto;
+            width: 100%;
+        }
+        
+        .test{
+        width: 100%;
+        
+        }
+        
+        
+        img{
+            height: 150px;
+            width: 40%;  
+        }
+        
+        
+        #first-picture{
+            width: 100%;
+        height: 300px;
+            }
+    
+}
+
+@media screen and (max-width: 640px) {
+
+ 
+        
+        .test{
+        width: 100%;
+        }
+        
+        
+        img{
+            height: 100px;
+            width: 100%;  
+        }
+        
+        
+        #first-picture{
+            width: 100%;
+        height: 100px;
+            }
     
 }

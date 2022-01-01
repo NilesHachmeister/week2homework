@@ -31,8 +31,8 @@ below is an example image of what the bottom of the page should look like when t
 <img src="./assets/images/example6.png" alt="an example of what the bottom of the page looks like when the viewport is less than 640px">
 
 
-
-
+below is the link to the delpoyed application:
+https://nileshachmeister.github.io/week2homework/
 
 
 sources:

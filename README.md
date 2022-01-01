@@ -11,11 +11,16 @@ Built Using: HTML CSS This page was built with accessibility as a main focus
 Usage: The only thing the user will need to do is to open the webpage. The user will be able to use the nav section to navigate throughout the page. The user will also be able to click on the pictures of my work to navigate to webpages containing my work. At the bottom of the page the user is able to click on the contact me links to open up different interfaces to contact me.
 
 
+<img src="./assets/images/example1" alt="this is an example image of how the page should look">
 
-sources
+
+
+sources:
+I got all of my stock photos for the example programs from here:
 https://www.pexels.com/search/programming/
-https://www.hawkesburygazette.com.au/story/6855771/all-you-can-eat-still-available-at-pizza-hut-with-a-twist/
 
+I got the picture of pizza hut from the link bellow:
+https://www.hawkesburygazette.com.au/story/6855771/all-you-can-eat-still-available-at-pizza-hut-with-a-twist/
 
 
 

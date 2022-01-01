@@ -1,83 +1,70 @@
-
+/* this establishes all of my variables*/
 :root{
     --light:#662f43 ;
     --blue:#17628a ;
     --blue-border: #052945;
+    --dark-red:#3f061b;
 }
 
 
-
-
+/* this establishos the background of the page as the green with a gradiant */
 body{
     background: linear-gradient(90deg, rgba(21,88,16,1) 0%, rgba(176,240,119,0.8183867296918768) 100%);
 }
 
 
-
+/* this sets my desired properties for the header section*/
 header{
-   
     background-color: var(--blue);
     color: white;
     height: 50px;
     font-size: 25px;
-
     border-bottom: solid var(--blue-border) 5px;
     width: 100%;
 }
 
-
+/* this is for my name, and it allows it to float left*/
 .name{
-  
     font-size: 50px;
     float: left;
-  
 }
 
-
+/* this establishes the possitioning for my nav bar*/
 header nav{
-
     display: flex;
     justify-content: space-around;
     align-items: center;
-
 } 
 
 
-
+/* this makes my nav links look the way I wanted them to.*/
 header nav a{
-  padding: 8px;
-  margin: 3px;
-    text-decoration: none;
-    color: white;
-    cursor: pointer;
-
-    transition: all 0.5s ease-in;
-   
+padding: 8px;
+margin: 3px;
+text-decoration: none;
+color: white;
+cursor: pointer;
+transition: all 0.5s ease-in;
 width:33%;
 text-align: center;
-
-
 }
 
+/* this changes the background of the nav links when you hover over them*/
 header nav a:hover{
-   
     text-decoration: none;
-  
     cursor: pointer;
     background-color: var(--light);
- 
 }
 
 
+/* this establishes the properties for my titles*/
 .title{
-    
     border: black solid 7px;
     text-align: center;
     margin: 20px 30%;
-    
-    
 }
 
+/* this sets how i want the about me section to work. mostly this is for backrgound, width, height, and how it behaves*/
 #about-me{
     background-color: var(--light);
     color: white;
@@ -88,21 +75,21 @@ header nav a:hover{
     flex-wrap: wrap;
 }
 
+/* this establishes the properties of the text in the about me section*/
 .text{
     width: 40%;
 }
-
 .text p {
     justify-content: center;
     margin: 40px; 
     line-height: 1em;
 }
 
+/* this establishes the size of my pictures*/
 .my-picture{
     width:30%;
     height: inherit;
 }
-
 .my-picture img{
     height: 100%;
     width: 100%;
@@ -110,7 +97,7 @@ header nav a:hover{
     border: none;
 }
 
-
+/* this sets a basic size and background for the content closses of  my page*/
 .content{
     width: 100%;
     background-color: var(--light);
@@ -118,10 +105,11 @@ header nav a:hover{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    border-bottom: solid var(--dark-red) 5px;
 }
 
-
-.first-span{
+/* this class defines the box that will show my first project*/
+.first-work{
     background-color: var(--light);
     height: auto;
     width: 50%;
@@ -129,50 +117,57 @@ header nav a:hover{
     justify-content: space-evenly;
 }
 
+/* this establishes the size of the first container for my first picture and title*/
 .first-container{
-    width: 90%;
+  width: 90%;
   margin-top: 8px;
   position: relative;
-    
+  box-shadow: 0 1px 1px rgba(0,0,0,0.25);
+  transition: box-shadow 0.3s ease-in-out;
 }
 
+/* this establishes the size and border for my first picture*/
 #first-picture{
     width: 100%;
     height: 375px;
     border: solid white 5px;
     }
 
-
-
-
-.test{
+/* this establishes the area whhere my next four projects will go. It also establishes the flex properties for each of the projects*/
+.second-container{
 background-color: var(--light);
 width: 50%;
 display: flex;
 justify-content: center;
 flex-wrap: wrap;
 height: auto;
-
-
 }
 
+/* these establish the container size for projects 2 thourgh 5*/
 .container{
     height: 180px;
     width:  40%;
     margin: 10px;
     position: relative;
     cursor: pointer;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.25);
+    transition: box-shadow 0.3s ease-in-out;
 }
 
+/* this adds the hover effect on the pictures*/
+.first-container:hover,
+.container:hover {
+    box-shadow: 0 15px 15px rgba(0,0,0,0.8);
+  }
 
+/* this sets the size for the pictures*/
 .container img{
     border: solid white 5px;
     height: 170px;
     width: 100%;
 }
 
-
-
+/* this establishes the positioning and style for the titles of each project*/
 .example-text{
     position: absolute;
     top: 10px;
@@ -181,19 +176,9 @@ height: auto;
     font-size: 23px;
     color: white;
     border: solid var(--light) 3px;
-
-
 }
 
-
-
-
-.title p {
-    font-size: 150%;
-}
-
-
-
+/* this establishes the size of the foter*/
 footer{
     position: relative;
     margin: 20px 0;
@@ -201,7 +186,7 @@ footer{
     width: 100%;
 }
 
-
+/* this sets up the format for the contact me links*/
 .contact-links{
     padding: 20px;
     text-decoration: none;
@@ -209,14 +194,14 @@ footer{
 }
 
 
-
+/* this establishes formating for the "contact me" h2*/
 #contact h2{
    color: white;
-  width: 90%;
+  width: 16%;
    margin-left: 2%;
 }
 
-
+/* this sets up all of the style and location for the content within the footer*/
 #contact{
    display: flex;
    background-color: var(--blue);
@@ -229,161 +214,136 @@ footer{
    border-bottom: solid var(--blue-border) 5px;
 }
 
+/* this gives you a pointer for your cursor when hovering over the links within the footer*/
 #contact a {
     cursor: pointer;
+    width: 28%;
 }
 
-
+/* this sets up the transition for the hover*/
 footer div a {
     transition: all 0.5s ease-in;
     text-align: center;
 }
 
+/* this changes the background color when you hover over each link*/
 footer div a:hover{
     background-color: var(--light);
 }
 
 
-
+/* this whole thing below sets up the changes that happen when your screen is below 998px wide*/
 @media screen and (max-width: 998px) {
 
+  /* this puts my name back in line with the header*/  
 .name{
     float: none;
 }
 
+/* this sets up how my header will change*/
 header{
-
     height: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    
-  
 }
 
-
-    #about-me{
-        height: auto;
-        width: 100%;
-
-    }
-
+/* the code below takes differnt aspects of the page and makes them all span the width of it */
+#about-me{
+    height: auto;
+    width: 100%;
+ }
 .my-picture{
     width: 100%;
    height:auto;
-  
 }
-
 .text{
     height:auto;
     width: 100%;
 }
-
-    .first-span{
-            height: auto;
-            width: 100%;
-        }
+.first-work{
+     height: auto;
+     width: 100%;
+}     
+    .second-container{
+     width: 100%;
+     height: auto;
+}
         
-        .test{
-        width: 100%;
-        height: auto;
-        }
-        
-        
-        img{
-            height: 150px;
-            width: 40%;  
-        }
-        
-        
-        #first-picture{
-            width: 100%;
-        height: 300px;
-            }
-
-
-
- #contact{
-    position: absolute;
-    bottom: -290%;
-
- }
- 
-
-    
+   /* these change the size of the pictures*/     
+img{
+    height: 150px;
+     width: 40%;  
+}          
+#first-picture{
+    width: 100%;
+    height: 300px;
 }
 
+/* this repositions the elements in the footer to be at the bottom of the page*/
+#contact{
+    position: absolute;
+    bottom: -310%;
+}
+ 
+/* this whole thing below sets up the changes that happen when your screen is below 640px wide*/
 @media screen and (max-width: 640px) {
 
 
-
+ /* this changes the height of the header so that it will auto adjust*/   
     header{
         height: auto;
+        justify-content: center;
+        display: flex;
     }
 
-
+ /* this allows the contents inside tho nav to flex wrap*/   
     nav{
         display: flex;
         flex-wrap: wrap;
     }
 
-
-      header nav a {
+ /* this makes each link in the nav on its own line*/   
+    header nav a {
        width: 100%;
-      text-align: center;      
-        }
+      text-align: center;    
+    }
 
- 
-        
-        .test{
+     /* these resize each of the containers holding the images to make each of them have their own line*/   
+    .second-container{
         width: 100%;
         height: auto;
-        }
-        
-        .first-container{
-            width: 100%;
-            height: 100px;
-           margin: 15px;
-        }
-
-
-        .container{
-            width: 100%;
-            height: 100px;
-           margin: 15px;
-        }
-       
-        .container img{
-            height: 100px;
-    width: 97%;
-        }
- 
-
-        #first-picture{
-            height: 100px;
-    width: 97%;
-            }
+    }
+    .first-container{
+        width: 100%;
+        height: 100px;
+        margin: 15px;
+    }
+    .container{
+        width: 100%;
+        height: 100px;
+        margin: 15px;
+    }
+    .container img{
+        height: 100px;
+        width: 97%;
+    }
+    #first-picture{
+        height: 100px;
+        width: 97%;
+    }
     
-
-  
-            #contact{
-              
-              display: flex;
-              flex-wrap: wrap;
-            text-align: center;
-          
-                position: absolute;
-                bottom: -400%;
-            
-             }
+ /* this repositions the contact links below the rest of the content and alows them to flex wrap*/   
+    #contact{ 
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        position: absolute;
+        bottom: -420%;
+    }
              
             
-           }
-            #contact a {
-
-                width: 100%;
-
-            }
-           
-
-}
+     /* this gives each contact link its own line*/          
+    #contact a{
+        width: 100%;
+    }

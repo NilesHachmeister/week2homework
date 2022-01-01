@@ -1,28 +1,22 @@
 # week2homework
 
+
+
+About the project: The goal of this page was to inform people about my work. In the header there is a navigation section to allow people to jump to different parts of the page. Below that there is an about me section where I write a little bit about myself. This section also contains a picture of me. Below that there are pictures that link to my work. Currently there is only one project that works and the rest are placeholders. At the bottom of the page there is a contact me section. This links to different ways that potential employers would be able to contact me. 
+Part of the focus on the project was to demonstrate my mastery of HTML and CSS. This includes the way in which the page changes based on the view port. I also wanted to add effects on hover to give the page a more lively feel. While I think it demonstrates my mastery of these languages I am also aware that it demonstrates my lack of artistic ability.
+
+
+Built Using: HTML CSS This page was built with accessibility as a main focus
+
+Usage: The only thing the user will need to do is to open the webpage. The user will be able to use the nav section to navigate throughout the page. The user will also be able to click on the pictures of my work to navigate to webpages containing my work. At the bottom of the page the user is able to click on the contact me links to open up different interfaces to contact me.
+
+
+
 sources
 https://www.pexels.com/search/programming/
+https://www.hawkesburygazette.com.au/story/6855771/all-you-can-eat-still-available-at-pizza-hut-with-a-twist/
 
 
 
 
-## Acceptance Criteria
-
-Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:
-
-```
-GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
-```
 

@@ -9,13 +9,16 @@
     <title>Niles</title>
 </head>
 
-<body>
-    <header>
+<!-- body of the page-->
 
+<body>
+
+    <!-- header for the page-->
+    <header>
         <span class="name">Niles Hachmeister</span>
 
 
-        <!-- Add links to make them work-->
+        <!-- this is the navigation section to navigate the user around the page-->
         <nav>
             <a href="#about-me">About Me</a>
             <a href="#work">Work</a>
@@ -25,17 +28,18 @@
 
     <main>
 
-
+        <!-- title for the about me section-->
         <h2 class="title">About Me</h2>
 
+        <!-- this section sets up-->
+        <section id="about-me" class="content">
 
-
-        <span id="about-me">
-
+            <!-- this span sets up the picture of me on the left hand side of the page-->
             <span class="my-picture">
-                <img src="./assets/images/me.jpg">
+                <img src="./assets/images/me.jpg" alt="a picture of me outside">
             </span>
 
+            <!-- this span sets up the text body and keeps it inline-->
             <span class="text">
                 <p>I am currently in a coding bootcamp for web development. My goal is to become a web developer after
                     the
@@ -61,33 +65,33 @@
                 </p>
             </span>
 
+            <!-- this span sets up the picture of pizzahut on the right side of the page-->
             <span class="my-picture">
-
-                <img src="./assets/images/pizzahut.jpg">
+                <img src="./assets/images/pizzahut.jpg" alt="a picture of pizzahut">
             </span>
-        </span>
+        </section>
 
-
+        <!-- title for my work section of the page-->
         <h2 class="title">Work</h2>
 
+        <!-- section is contains pictures that are examples of the work that i have done-->
+        <section class="content" id="work">
 
-        <div class="content" id="work">
-
-            <span class="first-span">
+            <!--this span contains the first picture. The idea is that I wanted to have this as its own span so that the next span could flex wrap within itself-->
+            <span class="first-work">
                 <div class="first-container">
                     <a href="https://nileshachmeister.github.io/week1complete/">
-                        <img id="first-picture" src="./assets/images/img1.jpeg" alt="">
+                        <img id="first-picture" src="./assets/images/img1.jpeg"
+                            alt="a picture to indicate the first project that I worked on">
                         <div class="example-text">Code Refractor Project</div>
                     </a>
                 </div>
             </span>
 
-
-            <span class="test">
+            <!-- the following span holds 4 containers within it. These 4 containers hold the example pictures with the example titless-->
+            <span class="second-container">
                 <div class="container">
-
                     <a href="#">
-
                         <img src="./assets/images/img2.jpeg" alt="the first example image">
                         <div class="example-text">example title</div>
                     </a>
@@ -95,7 +99,7 @@
 
                 <div class="container">
                     <a href="#">
-                        <img src="./assets/images/img3.jpeg" alt="">
+                        <img src="./assets/images/img3.jpeg" alt="the second example image">
                         <div class="example-text">example title</div>
                     </a>
                 </div>
@@ -103,7 +107,7 @@
 
                 <div class="container">
                     <a href="#">
-                        <img src="./assets/images/img4.jpeg" alt="">
+                        <img src="./assets/images/img4.jpeg" alt="the third example image">
                         <div class="example-text">example title</div>
                     </a>
                 </div>
@@ -111,31 +115,22 @@
 
                 <div class="container">
                     <a href="#">
-                        <img src="./assets/images/img5.jpeg" alt="">
+                        <img src="./assets/images/img5.jpeg" alt="the fourth example image">
                         <div class="example-text">example title</div>
                     </a>
                 </div>
-
             </span>
-
-        </div>
-
-
-
-
-
-
+        </section>
 
     </main>
 
-
+    <!--the footer aspect of my page-->
     <footer>
-
-
         <div id="contact">
             <h2>Contact Me</h2>
 
-            <a class="contact-links">(719)963-6841</a>
+            <!--all of the contact me links-->
+            <a class="contact-links" href="tel:7199636841">(719)963-6841</a>
             <a class="contact-links" href="mailto: Nilesquackmeister@gmail.com">Nilesquackmeister@gmail.com</a>
             <a class="contact-links" href="https://github.com/NilesHachmeister" target="_blank">Github</a>
         </div>
